@@ -1,0 +1,23 @@
+name: devicetree-compiler
+version: '0.1'
+summary: Simple snap to provide the devicetree compiler command
+description: |
+  The linux devicetree compiler as a snap
+
+grade: stable
+confinement: strict
+
+apps:
+  dtc:
+    command: bin/dtc
+    plugs:
+      - home
+
+parts:
+  dtc:
+    plugin: dump
+    source: .
+    organize:
+      usr/bin/: bin/
+    stage-packages:
+      - device-tree-compiler
