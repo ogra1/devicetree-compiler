@@ -1,5 +1,7 @@
 # A snap package of the linux dtc command
 
+[![Snap Status](https://build.snapcraft.io/badge/ogra1/devicetree-compiler.svg)](https://build.snapcraft.io/user/ogra1/devicetree-compiler)
+
 This is the linux devicetree compiler "dtc" as a snap.
 Due to the limits of snap packages you need to first copy the devicetree files to your home dir to allow dtc access to them.
 
