@@ -9,8 +9,8 @@ You can convert binary device tree files to plaintext to edit them and convert t
 
 ## Convert binary devicetree to dts text format
 
-devicetree-compiler.dtc -I dtb ~/sun8i-h3-nanopi-neo-air.dtb -O dts -o ~/sun8i-h3-nanopi-neo.dts
+devicetree-compiler -I dtb ~/sun8i-h3-nanopi-neo-air.dtb -O dts -o ~/sun8i-h3-nanopi-neo.dts
 
 ## Convert text format to binary dtb
 
-devicetree-compiler.dtc -I dts ~/sun8i-h3-nanopi-neo.dts -O dtb -o ~/sun8i-h3-nanopi-neo.dtb
+devicetree-compiler -I dts ~/sun8i-h3-nanopi-neo.dts -O dtb -o ~/sun8i-h3-nanopi-neo.dtb

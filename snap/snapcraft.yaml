@@ -8,7 +8,7 @@ grade: stable
 confinement: strict
 
 apps:
-  dtc:
+  devicetree-compiler:
     command: bin/dtc
     plugs:
       - home
