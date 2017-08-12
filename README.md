@@ -5,6 +5,10 @@
 This is the linux devicetree compiler "dtc" as a snap.
 Due to the limits of snap packages you need to first copy the devicetree files to your home dir to allow dtc access to them.
 
+If you use this snap on Ubuntu Core, note that the home interface will not auto-connect, connect it manually with:
+
+`snap connect devicetree-compiler:home`
+
 You can convert binary device tree files to plaintext to edit them and convert them back to binary.
 
 ## Convert binary devicetree to dts text format
